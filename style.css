@@ -1,0 +1,17 @@
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: black;
+}
+
+
+.container div{
+    width: flex;
+    height: 40px;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
