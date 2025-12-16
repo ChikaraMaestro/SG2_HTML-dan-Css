@@ -71,6 +71,52 @@ body
     cursor: pointer;
     font-size: 1.3em;
     font-weight: 600;
+    margin: 20px auto 5px;
+    display: block;
+}
+
+.foto-2
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+.gambar-kecil
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.deskripsi, .hobi
+{
+    margin: 0;
+    color: #555;
+    font-size: 1em;
+}
+
+.content-frame-2
+{
+    text-align: center;
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tombol-back
+{
+    background-color: #b0b0b0;
+    color: black;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 600;
     margin-top: 20px;
     align-self: center;
 }
